@@ -19,7 +19,7 @@ class Solution:
                 # otherwise set the word for the corresponding character in dictionary
                 else:
                     d[pattern[i]]=s[i]
-            # if total distinct characters in dictionary is not equal to the distinct
+            # if total keys in dictionary is not equal to the distinct
             # values in the dictionary then return False.
             # (This is to check if there is one to one mapping from s to pattern as well)
             if len(d)!=len(set(d.values())):
